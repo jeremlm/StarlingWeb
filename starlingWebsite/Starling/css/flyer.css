@@ -1,0 +1,30 @@
+.oiseau2 {
+    position: absolute;
+    top: -150px;
+    right: -410px;
+    width: 490px;
+}
+
+.jumbotron {
+    min-width: 585px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    border: 0.08em solid black;
+    border-bottom-color: rgb(11, 76, 120);
+    border-top-color: rgb(92, 37, 121);
+}
+
+h1 {
+    font-size: 6em;
+    color: #484949;
+}
+
+#socDesc {
+    color: black;
+}
+
+body {
+    min-width: 520px;
+}
