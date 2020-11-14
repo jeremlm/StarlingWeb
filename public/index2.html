@@ -126,70 +126,103 @@
     </header>
     <!-- END OF site header Menu-->
 
-    <!-- BEGIN OF page main content -->
     <main class="page-main main-anim fullpg" id="mainpage">
 
         <!-- Begin of home section -->
+        <div class="section section-home fp-auto-height-responsive" data-section="home">
+            <div class="content">
+                <!-- Begin of Content -->
+                <div class="content-left c-columns anim">
 
-        <!-- End of register / socials section -->
+                    <div class="wrapper">
+                        <!-- Title and description -->
+                        <div class="title-desc">
+                            <div class="t-wrapper">
+                                <!-- Logo -->
+                                <!--<div class="logo home-logo ">
+										<img class="" src="img/logo.png" alt="Logo">
+								</div>-->
 
-        <!-- Begin of contact section -->
-        <div class="section section-about section-cent fp-auto-height-responsive" data-section="intro">
+                                <!-- Title -->
+                                <header class="title">
+                                    <h2><strong>Réalité augmentée
+                                    </strong>
+                                    </h2>
+                                    <h3>Cercle de Projet G4</h3>
+                                </header>
+                                <!-- desc -->
+                                <div class="desc ">
+                                    <!-- <p>Visualisez la démo 3D de la mascotte réalisée par l'équipe Starling</p> -->
+
+                                    <!-- Action button -->
+                                    <div class="cta-btns">
+                                        <!-- <a class="btn btn-normal" href="index.html#ra"> -->
+                                        <!-- <span class="txt">Regardez</span> -->
+                                        <!-- <span class="arrow-icon"></span> -->
+                                        <!-- </a> -->
+                                    </div>
+                                </div>
+                                <!-- <div class="oiseau2"><img src="img/oiseau.png"></div> -->
+                            </div>
+                        </div>
+                        <div class="oiseau2 invisibleStar"><img src="img/starling.png"></div>
+                    </div>
+
+
+
+                    <!-- Arrows scroll down/up -->
+                    <footer class="s-footer scrolldown">
+                        <a class="down btn">
+                            <span class="icon"></span>
+                            <span class="txt">Scroll Down</span>
+                        </a>
+                    </footer>
+                </div>
+                <!-- End of Content -->
+            </div>
+        </div>
+        
+
+
+
+        <div class="section section-about section-cent fp-auto-height-responsive" data-section="fly1">
 
             <section class="content clearfix">
                 <!-- Begin of Content -->
                 <div class="content-centered c-columns">
                     <div class="c-title">
-                        <h2 style="text-align: center !important;"><strong>Réalité augmentée</strong></h2>
+                        <h2>STARLING AR</h2>
+                        <h3>Pour bénéficier de la réalité augmentée connectez-vous sur votre smartphone et cliquez sur la petite boite en bas à droite de l'image.</h3>
                     </div>
 
                     <div class="wrapper anim">
                         <div class="title-desc ">
-                            <H5 class="pour">Pour bénéficier de la réalité augmentée connectez-vous sur votre
-                                smartphone et cliquez sur la petite boite en bas à droite de l'image.</H5>
+                            <!-- <h3 class="border ">Contexte</h3> -->
+                            <model-viewer class=""
+                                src="https://cdn.glitch.com/f898e5ce-7ff4-4550-a8a1-814672d87352%2Fmodel.glb?v=1605273469557"
+                                ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
+                                poster="https://cdn.glitch.com/f898e5ce-7ff4-4550-a8a1-814672d87352%2Fmodeleg4.png?v=1605274374101"
+                                alt="Modèle 3D en réalité augmentée de notre mascotte" shadow-intensity="1" camera-controls auto-rotate ar>
+                            </model-viewer>
+                            <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+                            </script>
+                            <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+                            </script>
+                        
+                            <div class="c-title ">
+                                <p>Vous pouvez aussi cliquer sur le bouton ci-dessous pour télécharger le fichier apk de l'application mobile pour un rendu encore plus optimisé sur les appareils Android !</p>
+                                <p style="text-align: center"> <a href="apk/StarlingAR.apk" role="button" class="btn btn-info" download="StarlingAR">Télécharger l'application mobile</a></p>
+                            </div>
+
+                            <div class="c-title ">
+                                <p>Une fois l'application installée, pointez la cible (notre logo) avec votre caméra et laissez-vous impressionner par la technologie.</p>
+                                <p>Vous pouvez la pointer directement sur l'écran ou la télécharger en cliquant sur le bouton ci-dessous, l'imprimer et la placer n'importe où!</p>
+                                <p style="text-align: center"> <a href="img/StarlingLogo.png" role="button" class="btn btn-info" download="StarlingAR">Télécharger la cible</a></p>
+                            </div>                    
                         </div>
-                                    <!-- title -->
-                            <div class="jeuxx">
-                                <model-viewer class=""
-                                    src="https://cdn.glitch.com/f898e5ce-7ff4-4550-a8a1-814672d87352%2Fmodel.glb?v=1605273469557"
-                                    ios-src="https://cdn.glitch.com/36cb8393-65c6-408d-a538-055ada20431b/Astronaut.usdz?v=1569545377878"
-                                    poster="https://cdn.glitch.com/f898e5ce-7ff4-4550-a8a1-814672d87352%2Fmodeleg4.png?v=1605274374101"
-                                    alt="Modèle 3D en réalité augmentée de notre mascotte" shadow-intensity="1"
-                                    camera-controls auto-rotate ar>
-                                </model-viewer>
-                            </div>
-                            <script type="module"
-                                src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
-                                </script>
-                            <script nomodule
-                                src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
-                                </script>
-                    </div>
-                    <div class="wrapper anim">
-                        <p style="text-align: center">
-                            <H5 class="pour">Vous pouvez aussi cliquer sur le bouton ci-dessous pour télécharger le fichier apk de l'application mobile pour un rendu encore plus optimisé sur les appareils Android !</H5>
-                            <div class="cta-btns">
-                                <a class="btn btn-normal" href="apk/StarlingAR.apk" download="StarlingAR">
-                                    <span class="txt">Télécharger l'application mobile</span>
-                                    <span class="arrow-icon"></span>
-                                </a>
-                            </div>
-                        </p>
                     </div>
 
-                    <div class="wrapper anim">
-                        <p style="text-align: center">
-                            <H5 class="pour">Une fois l'application installée, pointez la cible (notre logo) avec votre caméra et laissez-vous impressionner par la technologie.</H5><br><br>
-                            <H5 class="pour">Vous pouvez la pointer directement sur l'écran ou la télécharger en cliquant sur le bouton ci-dessous, l'imprimer et la placer n'importe où!</H5>
-                            <div class="cta-btns">
-                                <a class="btn btn-normal" href="img/StarlingLogo.png" download="StarlingAR">
-                                    <span class="txt">Télécharger la cible</span>
-                                    <span class="arrow-icon"></span>
-                                </a>
-                            </div>
-                        </p>
-                    </div>
-                            <!-- Arrows scroll down/up -->
+                    <!-- Arrows scroll down/up -->
                     <footer class="s-footer scrolldown ">
                         <a class="down btn ">
                             <span class="icon "></span>
@@ -197,7 +230,7 @@
                         </a>
                     </footer>
                 </div>
-                        <!-- End of Content -->
+                <!-- End of Content -->
             </section>
         </div>
 
