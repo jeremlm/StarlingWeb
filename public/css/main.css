@@ -73,7 +73,7 @@ http://themeforest.net/licenses
     .vid {
         margin-top: 60px;
     }
-    .invisible {
+    .invisibleStar {
         display: none;
     }
 }
@@ -81,6 +81,9 @@ http://themeforest.net/licenses
 @media screen and (max-width: 800px) {
     .vid {
         margin-top: 60px;
+    }
+    .invisibleStar {
+        display: none;
     }
 }
 
