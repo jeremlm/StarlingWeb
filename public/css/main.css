@@ -73,11 +73,17 @@ http://themeforest.net/licenses
     .vid {
         margin-top: 60px;
     }
+    .invisible {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .vid {
         margin-top: 60px;
+    }
+    .invisible {
+        display: none;
     }
 }
 
