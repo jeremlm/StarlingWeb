@@ -24,7 +24,28 @@ h1 {
 #socDesc {
     color: black;
 }
-
-body {
+/* body {
     min-width: 520px;
+} */
+
+.jeuxx {
+    margin: 0 auto;
+    width: 200px;
+}
+
+@media screen and (max-width: 640px) {
+    .jeuxx {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .jeuxx {
+        width: 100%;
+    }
+    .pour {
+        width: 100%;
+        margin-top: 80px;
+        text-align: center;
+    }
 }
