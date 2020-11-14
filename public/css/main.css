@@ -2703,7 +2703,7 @@ strong,
 .section .content .c-columns.content-centered .title-desc h3,
 .section .content .c-columns.content-centered .title-desc h4,
 .section .content .c-columns.content-centered .title-desc p {
-    text-align: center;
+    text-align: justify;
 }
 
 .section .content .c-columns.content-centered .title-desc .border {
@@ -2715,7 +2715,7 @@ strong,
 .section .content .c-columns.content-centered .title-desc .border:before {
     content: "";
     position: absolute;
-    left: 50%;
+    /* left: 50%; */
     bottom: 0;
     width: 128px;
     margin-left: -64px;
@@ -2729,11 +2729,11 @@ strong,
 }
 
 .section .content .c-columns.content-centered .title-desc .cta-btns {
-    text-align: center;
+    text-align: jusitfy;
 }
 
 .section .content .c-columns.content-centered .cta-btns {
-    text-align: center;
+    text-align: justify;
 }
 
 .section .content h2,
